@@ -1,0 +1,53 @@
+#divDatiAnagrafici:hover #modificaDatiAnagrafici , #modificaSpazi, #modificaBeniAssegnati{
+	display: block;
+}
+
+.infoHover img {
+	height: 1.2em;
+}
+
+.ellipsis {
+	width: 240px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#divDatiAnagrafici .BoxInfoCard {
+	border-left-width: 0px;
+}
+
+#divDatiAnagrafici .BoxInfoCard:nth-child(2) {
+	border-top-width: 0px;	
+}
+
+#divDatiAnagrafici .ElementInfoCard2 {
+	border-right: none;
+}
+
+#divDatiAnagrafici a.external_icon:after {
+    content: url("/portaleservizi/portale/container/icons/misc/link-ext.png");
+    padding-left: 0.0em;
+}
+
+.mostra_nascondi {
+	cursor: pointer;
+    padding-left: 0.0em;
+}
+
+.senza_pallini
+{
+	margin-top:2px;
+	margin-bottom:1px;
+	padding-left: 2px;
+}
+
+.dim_icone_comandi
+{
+	width: 18px;
+	position: relative;
+}
+
+.dim_helpicon
+{
+	max-width: 350px!important;	
+}
