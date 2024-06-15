@@ -1,0 +1,56 @@
+/* Table Styling */
+._TableIn {
+    width: 100%;
+    border-style: none;
+}
+
+.imgPoliFoto {
+    height: 137px;
+}
+
+.TableDati .imgPoliFoto {
+    height: 45px;
+}
+
+#poliFoto {
+    text-align: center;
+}
+
+#poliFoto p {
+    color: red;
+}
+
+/* Logout Styling */
+.jaf-td-logOut {
+    width: 5em;
+}
+
+.link-LogOut {
+    font-weight: bold;
+    margin: 0 .5em;
+}
+
+/* UI Icons */
+.ui-icon-separatore-bianco {
+    background-image: url("/webcommons/ajax/libs/jqueryui/1.12.1/themes/images/ui-icons_FFFFFF_256x240.png");
+    background-position: -80px -144px;
+}
+
+/* Application Name Styling */
+.nomeApp {
+    float: left;
+    margin-left: 1em;
+}
+
+/* UI State Default */
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+    background: #f3f3ee;
+    border: thin solid #f3f3ee;
+    border-bottom: 0;
+    color: #069;
+    font-weight: normal;
+}
+
+/* Textarea
